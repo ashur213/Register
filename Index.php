@@ -10,7 +10,7 @@
 
 
         REGISTER:<br>
-        <form action="submit.php" method="POST">
+        <form action="register.php" method="POST">
 
             Namn: <input type="text" name="name"><br>
             Födelsedatum: <input type="date" name="birth"><br>
@@ -19,5 +19,11 @@
             Lösenord: <input type="password" name="password">
     </form>
 </body>
-
+<body>
+   <form action="login.php" method="POST">
+   
+    Mail: <input type="email" name="mail"><br>
+    Lösenord: <input type="password" name="password">
+    </form>
+</body>
 </html>
