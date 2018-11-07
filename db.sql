@@ -8,5 +8,5 @@ CREATE TABLE register(
     birth varchar(32),
     mail varchar(32) UNIQUE,
     address varchar(32),
-    password varchar(32)
+    pass varchar(32)
  );

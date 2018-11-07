@@ -12,9 +12,9 @@ if( isset($_POST['name']) && isset($_POST['birth']) && isset($_POST['mail']) &&
     $date = $_POST['birth'];
     $mail = $_POST['mail'];
     $address = $_POST['address'];
-    $pass = $_POST['pass'];
+    $password = $_POST['password'];
     // FORMULERA INSERT FRÅGA
-    $query = "INSERT INTO register (name,birth,mail,address,password) VALUES ('$name','$birth','$mail','$address','$password');";
+    $query = "INSERT INTO register (name,birth,mail,address,password) VALUES ('$name','$birth','$mail','$address','$password        ');";
     // OM FRÅGAN GÅTT BRA
     if(mysqli_query($dbc_form,$query)){
         // SKICKAS TILL INDEX

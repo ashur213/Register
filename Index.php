@@ -56,7 +56,7 @@
    <form action="login.php" method="POST">
    <h1>Login:</h1>
     <br>Mail: <input type="email" name="mail"><br>
-    Lösenord: <input type="password" name="password">
+    Lösenord: <input type="pass" name="password">
        <input type="submit"> 
     </form>
 </body>
