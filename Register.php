@@ -12,7 +12,7 @@ if( isset($_POST['name']) && isset($_POST['birth']) && isset($_POST['mail']) &&
     $date = $_POST['birth'];
     $mail = $_POST['mail'];
     $address = $_POST['address'];
-    $pass = $_POST['password'];
+    $pass = $_POST['pass'];
     // FORMULERA INSERT FRÅGA
     $query = "INSERT INTO register (name,birth,mail,address,password) VALUES ('$name','$birth','$mail','$address','$password');";
     // OM FRÅGAN GÅTT BRA
